@@ -41,13 +41,18 @@
 
     /* ----COLORS---- */
 
-    --color-text-primay: ;
-    --color-text-secondary: ;
+    --color-text-primay: #662600;
+    --color-text-secondary: #FFFADA;
 
-    --color-brand: ;
-    --color-brand-hover: ;
-    
+    --color-brand: #7A5B30;
+    --color-brand-border: #C49A6A;
+    --color-brand-button: #f5f5f5;
 
+    /* ----Info de background: GRADIENT---- 
+     3 colores:  color 1: #693A00; - 92%
+                color 2: #B87B33; - 85%
+                color 3: #EDD2B4; - 100%
+    */
 
 
 
