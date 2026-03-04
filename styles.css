@@ -103,6 +103,8 @@ body {
 
 body::before {
     content: "";
+    position: fixed;
+    inset: 0;
     background: linear-gradient(to left, #693A00 0%, #B87B33 50%, #EDD2B4 100%);        /* Los % no funcionan como en Figma, aqui no representan que % de color quieres, sino en que % de la pantalla los aplicas */
     z-index: -1;        /* Capa inferior para no solapar a nadie */
 }
