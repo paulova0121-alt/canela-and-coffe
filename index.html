@@ -1,21 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Canela&Coffee</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="">Iniciar Sesión</a></li>
-          <li><a href="">Nuestro C&C</a></li>
-          <li><a href="">Contacto</a></li>
-          <li><a href="">Colaboradores</a></li>
-        </ul>
+    
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a class="nav__logo" href="#">Canela&Coffee</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Abrir menú">☰</button>
+
+        <div class="nav__menu">
+          <a class="nav__link" href="#">Iniciar Sesión</a>
+          <a class="nav__link" href="#">Nuestro C&C</a>
+          <a class="second-nav__link" href="#">Contacto</a>
+          <a class="second-nav__link" href="#">Colaboradores</a>
+        </div>
       </nav>
     </header>
 
@@ -52,7 +59,7 @@
         </p>
       </article>
     </section>
-    
+
     <section id="equipo">
       <h2>Quienes somos</h2>
       <div id="cards">
@@ -85,13 +92,14 @@
         <p>linkendin: www.linkedin.com/in/chocolate-milk-ba070239</p>
       </div>
     </section>
-     <footer>
-  <p>© 2025 Canela&Coffee. Todos los derechos reservados.</p>
 
-  <nav>
-    <a href="#servicios">Servicios</a> |
-    <a href="#contacto">Contacto</a>
-  </nav>
-</footer>
+    <footer>
+      <p>© 2025 Canela&Coffee. Todos los derechos reservados.</p>
+      <nav>
+        <a href="#servicios">Servicios</a> |
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
