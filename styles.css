@@ -43,7 +43,7 @@
 
     --color-text-primay: #662600;
     --color-text-secondary: #FFFADA;
-
+    
     --color-brand: #7A5B30;
     --color-brand-border: #C49A6A;
     --color-brand-button: #f5f5f5;
@@ -53,7 +53,86 @@
                 color 2: #B87B33; - 85%
                 color 3: #EDD2B4; - 100%
     */
+}
+* {
+    box-sizing: border-box;
+}
+/*----TEAM-CARDS----*/
+.cards_team{
+    display: flex;
+    justify-content:center ;
+    background-color:bisque;
+    border-radius: 12px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size:  0,9em;
+    line-height: 1.4;
+    height: 400px;
+   
+}
+.somos{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+.name{
+    margin: 0 0 1px 0;   
+    font-size: 1.3em;
+}
+.info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 0,85em;
+}
 
+.icon{
+    height: 150px;
+    width: 150px;
+       object-fit: cover;
+       margin: 0 auto 15px auto;
+       display: block;
 
+}
+.icon_two{
+    height: 210px;
+       object-fit: cover;
+       display: block;
+       margin-left: -80px;
+       margin-top: -30px;
+}
+.card_pau{
+width: 280px;
+max-width: 100%;                   
+padding: 10px;
+background-color: rgb(220, 188, 150);
+    border: 1px solid #633800;
+    border-radius: 12px;
+
+}
+.card_kar{
+    width: 280px;
+max-width: 100%;                   
+padding: 10px;
+    background-color: var(--color-brand-border);
+        border: 1px solid #633800;
+    border-radius: 12px;
+}
+.card_rub{
+    width: 280px;
+max-width: 100%;                   
+padding: 10px;
+    background-color: var(--color-brand);
+    border: 1px solid #633800;
+    border-radius: 12px;
+}
+.card_cyn{ 
+    width: 280px;
+max-width: 100%;                   
+padding: 10px;
+    background-color:#b04507;
+      border: 1px solid #633800;
+    border-radius: 12px;
 
 }
