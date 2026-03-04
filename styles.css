@@ -96,7 +96,7 @@
 
 }
 .icon_two{
-    height: 210px;
+    height: 190px;
        object-fit: cover;
        display: block;
        margin-left: -80px;
@@ -109,7 +109,7 @@ padding: 10px;
 background-color: rgb(220, 188, 150);
     border: 1px solid #633800;
     border-radius: 12px;
-
+list-style-position: inside;
 }
 .card_kar{
     width: 280px;
@@ -118,6 +118,7 @@ padding: 10px;
     background-color: var(--color-brand-border);
         border: 1px solid #633800;
     border-radius: 12px;
+    list-style-position: inside;
 }
 .card_rub{
     width: 280px;
@@ -126,6 +127,7 @@ padding: 10px;
     background-color: var(--color-brand);
     border: 1px solid #633800;
     border-radius: 12px;
+    list-style-position: inside;
 }
 .card_cyn{ 
     width: 280px;
@@ -134,5 +136,5 @@ padding: 10px;
     background-color:#b04507;
       border: 1px solid #633800;
     border-radius: 12px;
-
+list-style-position: inside;
 }
