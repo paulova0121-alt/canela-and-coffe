@@ -95,3 +95,6 @@
 
 }
 
+body {
+    background: linear-gradient(to left, #693A00 0%, #B87B33 50%, #EDD2B4 100%);
+}
