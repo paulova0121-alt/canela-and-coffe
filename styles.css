@@ -87,6 +87,9 @@
     --color-brand-border: #C49A6A;
     --color-brand-button: #f5f5f5;
 
+    /* ----STROKE---- */
+    --webkit-text-stroke: #C49A6A;
+
     /* ----Info de background: GRADIENT---- 
      3 colores:  color 1: #693A00; - 92%
                 color 2: #B87B33; - 85%
